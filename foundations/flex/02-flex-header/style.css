@@ -1,6 +1,35 @@
+
+
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+
+
+ul{
+ flex-direction: row;
+display: flex;
+  align-items: stretch;
+  justify-content: space-evenly;
+
+
+}
+
+
+
+li{
+ 
+  border: 1px transparent;
+  padding: 5px;
+  
+  
+
 }
 
 .logo {
